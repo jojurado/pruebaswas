@@ -1,0 +1,7 @@
+
+Ω%squid:RedundantThrowsDeclarationCheck+"’Remove the declaration of thrown exception 'org.apache.velocity.exception.ResourceNotFoundException' which is a subclass of 'java.lang.Exception'.(¬ΕH"RMINORZ
+CODE_SMELL
+Ϊ%squid:RedundantThrowsDeclarationCheck+"Remove the declaration of thrown exception 'org.apache.velocity.exception.ParseErrorException' which is a subclass of 'java.lang.Exception'.(¬Ε8χυ„Ά“,H\RMINORZ
+CODE_SMELL
+|squid:S00116"ORename this field "_ctx" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ξ²ΚH$RMINORZ
+CODE_SMELL

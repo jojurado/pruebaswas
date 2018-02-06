@@ -1,0 +1,20 @@
+
+Ysquid:S1989G"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHÑRMINORZVULNERABILITY
+Ysquid:S1989G"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHÒRMINORZVULNERABILITY
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ÑŒñ²øÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+e
+squid:S106,"9Replace this use of System.out or System.err by a logger.(àŽ›îHÔRMAJORZ
+CODE_SMELL
+lsquid:S2142/"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€HÕRMAJORZBUG
+Wsquid:S00108/")Either remove or fill this block of code.(ä ¹€HÖRMAJORZ
+CODE_SMELL
+¶squid:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©ÖûÿÿÿÿH×RCRITICALZ
+CODE_SMELL
+gsquid:S1161 ":Add the "@Override" annotation above this method signature(âíÇâHØRMAJORZ
+CODE_SMELL
+lsquid:S1161>":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+gsquid:S1161F":Add the "@Override" annotation above this method signature(‹¨¯¿HÚRMAJORZ
+CODE_SMELL

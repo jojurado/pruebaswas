@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\eclipse-workspace-apache-velocity\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+817621090.index
+1286087903.index
+2337484129.index
+3248740000.index
+3522814985.index
+4183381502.index

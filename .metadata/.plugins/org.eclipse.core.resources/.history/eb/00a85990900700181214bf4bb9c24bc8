@@ -1,0 +1,42 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Hola, esto es una página JSP.</p>
+	<p>
+		La hora del servidor es
+		<%=new Date()%></p>
+	<h1>prueba de publicacion ss 1</h1>
+	<h1>prueba de publicacion 2</h1>
+	<h1>prueba de publicacion 3</h1>
+	<%
+		request.setAttribute("unEntero", new Integer(22));
+	%>
+	<p>
+		Me ha llegado
+		<%=request.getAttribute("unEntero")%></p>
+	<table>
+		<tr>
+			<th>Clave</th>
+			<th>Valor</th>
+		</tr>
+		<%
+			Enumeration<String> headerNames = request.getHeaderNames();
+			while (headerNames.hasMoreElements()) {
+		%>
+		<tr>
+			<td><%=(String) headerNames.nextElement()%></td>
+			<td><%=request.getHeader(key)%></td>
+		</tr>
+		<%
+			}
+		%>
+	</table>
+</body>
+</html>
