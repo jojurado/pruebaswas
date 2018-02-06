@@ -11,7 +11,7 @@
 <body>
 	<p>Hola, esto es una página JSP.</p>
 	<p>
-		La hora del servidor es
+		La hora del servidor es :
 		<%=new Date()%></p>
 	<h1>prueba de publicacion</h1>
 	<%
