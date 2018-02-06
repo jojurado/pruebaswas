@@ -30,16 +30,17 @@ public class DemoServletAsincronoListener extends HttpServlet {
 		contextoAsincrono.addListener(new AsyncListener() {
 			@Override
 			public void onTimeout(AsyncEvent arg0) throws IOException {
+				System.out.println("metodo onTimeout");
 			}
 
 			@Override
 			public void onStartAsync(AsyncEvent arg0) throws IOException {
-
+				System.out.println("metodo onStartAsync");
 			}
 
 			@Override
 			public void onError(AsyncEvent arg0) throws IOException {
-
+				System.out.println("metodo onError");
 			}
 
 			@Override
